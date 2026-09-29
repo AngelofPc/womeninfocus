@@ -23,7 +23,7 @@ export default function Home() {
       <Image src="/images/hero-research.jpg" alt="Women learning and working together at a table" fill priority sizes="100vw" className="hero-image" />
       <div className="hero-shade" />
       <div className="container hero-content"><div className="hero-copy"><span className="hero-kicker"><span className="kicker-line" /> Learning · Opportunity · Agency</span><h1>Her future.<br /><em>Her possibilities.</em></h1><p>We equip women and girls with the knowledge, skills, mentorship and confidence to learn, earn, lead and shape their own futures.</p><div className="hero-actions"><Link href="/programmes" className="button button-cream">Explore our work <ArrowUpRight size={18} /></Link><Link href="/about" className="hero-secondary">Discover our mission <ArrowRight size={18} /></Link></div></div></div>
-      <div className="hero-bottom container"><span>For women and girls. At every stage.</span><a href="#our-approach" aria-label="Scroll to our approach"><ArrowDown size={18} /></a><Link href="/v2" className="version-link">View version 02 ↗</Link></div>
+      <div className="hero-bottom container"><span>For women and girls. At every stage.</span><a href="#our-approach" aria-label="Scroll to our approach"><ArrowDown size={18} /></a></div>
     </section>
 
     <section className="intro-band" id="our-approach"><div className="container intro-band-grid"><span className="eyebrow">The work starts here</span><p>With the right knowledge, tools and support, <em>possibility becomes something she can act on.</em></p><Asterisk className="intro-asterisk" size={76} strokeWidth={1} /></div></section>
