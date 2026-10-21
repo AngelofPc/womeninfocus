@@ -5,12 +5,12 @@ export const vision = "A world where every girl and woman has the knowledge, ski
 export const mission = "To equip girls and women with the knowledge, skills, mentorship, technology and opportunities they need to navigate education, work and society with confidence, assert their rights and build better futures for themselves and their communities.";
 
 export const focusAreas = [
-  { id: "education", title: "Education, mentorship & career development", shortTitle: "Education & mentorship", text: "Guidance, learning opportunities and practical knowledge to help girls and women make informed educational and professional choices.", className: "theme-one" },
-  { id: "digital", title: "Digital & AI literacy", shortTitle: "Digital & AI literacy", text: "Understanding and using technology for learning, work, entrepreneurship, productivity and personal development.", className: "theme-two" },
-  { id: "economic", title: "Skills & economic empowerment", shortTitle: "Skills & economic opportunity", text: "Practical and employability skills to support access to jobs, entrepreneurship and greater economic independence.", className: "theme-three" },
-  { id: "rights", title: "Women’s rights & advocacy", shortTitle: "Rights & advocacy", text: "Knowledge and confidence to understand, assert and advocate for the rights of women and girls.", className: "theme-four" },
-  { id: "leadership", title: "Workplace empowerment & leadership", shortTitle: "Workplace agency & leadership", text: "Negotiation, communication and leadership skills to help women navigate work, progress in their careers and exercise their rights.", className: "theme-two" },
-  { id: "inclusion", title: "Community engagement & inclusion", shortTitle: "Community & inclusion", text: "Relevant resources and support that reach beyond urban and corporate settings to rural and underserved communities.", className: "theme-one" },
+  { id: "education", title: "Education, mentorship & career development", shortTitle: "Education & mentorship", text: "Guidance, learning opportunities and practical knowledge to help girls and women make informed educational and professional choices.", tone: "coral" },
+  { id: "digital", title: "Digital & AI literacy", shortTitle: "Digital & AI literacy", text: "Understanding and using technology for learning, work, entrepreneurship, productivity and personal development.", tone: "lavender" },
+  { id: "economic", title: "Skills & economic empowerment", shortTitle: "Skills & economic opportunity", text: "Practical and employability skills to support access to jobs, entrepreneurship and greater economic independence.", tone: "sage" },
+  { id: "rights", title: "Women’s rights & advocacy", shortTitle: "Rights & advocacy", text: "Knowledge and confidence to understand, assert and advocate for the rights of women and girls.", tone: "sand" },
+  { id: "leadership", title: "Workplace empowerment & leadership", shortTitle: "Workplace agency & leadership", text: "Negotiation, communication and leadership skills to help women navigate work, progress in their careers and exercise their rights.", tone: "lavender" },
+  { id: "inclusion", title: "Community engagement & inclusion", shortTitle: "Community & inclusion", text: "Relevant resources and support that reach beyond urban and corporate settings to rural and underserved communities.", tone: "coral" },
 ];
 
 export const audiences = [

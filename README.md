@@ -1,8 +1,15 @@
-# Women in Focus
+# Digital Women Impact Foundation
 
 A responsive NGO website built with Next.js, focused on equipping women and girls with knowledge, skills, mentorship, technology and opportunity.
 
-Organisation content is adapted from the client’s Women in Focus Concept Note and Learning Community Blueprint. Published research and the survey are preserved from [amala.vercel.app](https://amala.vercel.app/). See [content sources](docs/v1-content-sources.md) for editorial decisions.
+Organisation content is adapted from the client’s Digital Women Impact Foundation Concept Note and Learning Community Blueprint. Published research and the survey are preserved from [amala.vercel.app](https://amala.vercel.app/). See [content sources](docs/v1-content-sources.md) for editorial decisions.
+
+## Contact & Offices
+
+- **Nigeria:** No. 2 Sir Arodiwe Street, New GRA, Trans Ekulu, Enugu, Enugu State, Nigeria (`+234 (0) 8057324483`)
+- **United States:** 41 S. Waverly, Brighton, Boston, Massachusetts 021353 (`+1 (617) 417-5038`)
+- **Email:** info@dwifoundation.org
+- **Website:** [www.dwifoundation.org](https://www.dwifoundation.org)
 
 ## Run locally
 

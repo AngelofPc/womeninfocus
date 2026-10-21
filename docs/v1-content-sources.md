@@ -2,12 +2,12 @@
 
 The September 2026 content update uses two documents supplied by the client:
 
-- **Women in Focus Concept Note**: organisation name, purpose, vision, mission, theory of change, six values, six thematic areas and four audience groups.
+- **Digital Women Impact Foundation Concept Note**: organisation name, purpose, vision, mission, theory of change, six values, six thematic areas and four audience groups.
 - **Learning Community Blueprint: Foundation Draft** (supplied as NGO doc.docx): proposed African women’s AI and career learning community, learning themes, participation, shared practice, knowledge exchange, access considerations, legal literacy and progression.
 
 ## Editorial decisions
 
-- The concept note governs the Women in Focus identity. The alternative foundation name in the community draft has not replaced that identity.
+- The site identity and organisation name is Digital Women Impact Foundation.
 - The learning community and its workshops, clinics, resources, certificates and progression are presented as proposed or in development. The website does not imply that they are currently available or accepting enrolments.
 - Draft planning questions inform the partnership invitation and outcome priorities, rather than appearing as instructions to visitors.
 - Unattributed statistics and unverified impact totals are omitted. Outcomes in the theory of change are aspirations, not claims of completed impact.
