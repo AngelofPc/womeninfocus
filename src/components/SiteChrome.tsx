@@ -10,6 +10,7 @@ const links = [
   { href: "/about", label: "About" },
   { href: "/programmes", label: "Our work" },
   { href: "/articles", label: "Research" },
+  { href: "/blog", label: "Blog" },
   { href: "/survey", label: "Survey" },
   { href: "/forum", label: "Community" },
 ];
@@ -27,7 +28,7 @@ export function SiteHeader() {
   return <header className="site-header" id="top">
     <div className="nav-shell">
       <Logo />
-      <nav className="desktop-nav" aria-label="Main navigation">{links.map(link => <Link key={link.href} href={link.href} className={pathname === link.href || (link.href === "/articles" && pathname.startsWith("/articles/")) ? "active" : ""}>{link.label}</Link>)}</nav>
+      <nav className="desktop-nav" aria-label="Main navigation">{links.map(link => <Link key={link.href} href={link.href} className={pathname === link.href || (link.href !== "/" && pathname.startsWith(`${link.href}/`)) ? "active" : ""}>{link.label}</Link>)}</nav>
       <a className="header-action" href="mailto:info@dwifoundation.org">Get in touch <ArrowUpRight size={16} /></a>
       <button className="menu-toggle" type="button" onClick={() => setOpen(!open)} aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open}>{open ? <X size={25} /> : <Menu size={25} />}</button>
     </div>
@@ -36,6 +37,7 @@ export function SiteHeader() {
 }
 
 export function SiteFooter() {
+  const pathname = usePathname();
   return <footer className="site-footer">
     <div className="container footer-top">
       <div><span className="eyebrow light">Partner with us</span><h2>Invest in women. Transform communities.</h2><a className="button button-cream" href="mailto:info@dwifoundation.org">Start a conversation <ArrowUpRight size={17} /></a></div>

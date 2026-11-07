@@ -156,6 +156,31 @@ p {
   color: var(--rose);
 }
 
+.home-blog-section {
+  background: #ede3df;
+  padding: clamp(70px, 9vw, 120px) 0;
+}
+.home-blog-inner {
+  display: grid;
+  grid-template-columns: 1.2fr .65fr;
+  align-items: end;
+  gap: clamp(45px, 8vw, 120px);
+}
+.home-blog-inner h2 {
+  font: 400 clamp(43px, 5vw, 72px)/1.08 var(--serif);
+  max-width: 750px;
+  margin: 15px 0 0;
+}
+.home-blog-inner p {
+  color: var(--muted);
+  font-size: 17px;
+  max-width: 460px;
+  margin: 0 0 25px;
+}
+@media (max-width: 760px) {
+  .home-blog-inner { grid-template-columns: 1fr; gap: 28px; }
+}
+
 /* Header */
 .site-header {
   position: relative;

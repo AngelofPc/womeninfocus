@@ -238,6 +238,19 @@ export default function Home() {
         </div>
       </section>
 
+      <section className="home-blog-section" aria-labelledby="home-blog-title">
+        <div className="container home-blog-inner">
+          <div>
+            <span className="eyebrow">The foundation blog</span>
+            <h2 id="home-blog-title">Notes from the work, and the people moving it forward.</h2>
+          </div>
+          <div>
+            <p>Read stories, perspectives and updates on learning, technology, rights and opportunity for women and girls.</p>
+            <Link href="/blog" className="text-link">Visit the blog <ArrowUpRight size={17} /></Link>
+          </div>
+        </div>
+      </section>
+
       <section className="section community-section">
         <div className="container community-grid">
           <div>
